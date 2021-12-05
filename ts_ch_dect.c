@@ -1,3 +1,7 @@
+/*How to Use
+$ gcc ts_ch_dect.c -o ts_ch_dect
+$./ts_ch_dect ./ch41.ts | nkf --ic=CP932 > ch.txt
+*/
 #define TS_PACKET_SIZE 188
 #define NIT_TABLE_ID 0x40
 //SDT_TABLE_ID : 0x42(自チャンネル名)
